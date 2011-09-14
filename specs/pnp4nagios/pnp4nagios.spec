@@ -77,7 +77,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_sysconfdir}/%{name}/misccommands.cfg-sample
 %{_sysconfdir}/%{name}/nagios.cfg-sample
 %{_sysconfdir}/%{name}/pnp4nagios_release
-%{_mandir}/man8/npcd.8.gz
+/usr/share/man/man8/npcd.8.gz
 %attr(755,root,root) %{_sysconfdir}/rc.d/init.d/npcd
 %attr(755,root,root) %{_sysconfdir}/rc.d/init.d/pnp_gearman_worker
 %{_bindir}/npcd
